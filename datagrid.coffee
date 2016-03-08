@@ -37,6 +37,7 @@ class window.DataGrid
     @functions.push new Function
       name: "Median Rent"
       data: new DataMap 'medianrent.png'
+      enabled: true
 
     @functions.push new Function
       name: "Median Income"

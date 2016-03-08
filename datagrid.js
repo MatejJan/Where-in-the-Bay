@@ -32,7 +32,8 @@
       this.functions = [];
       this.functions.push(new Function({
         name: "Median Rent",
-        data: new DataMap('medianrent.png')
+        data: new DataMap('medianrent.png'),
+        enabled: true
       }));
       this.functions.push(new Function({
         name: "Median Income",

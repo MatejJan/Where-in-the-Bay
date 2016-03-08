@@ -6,7 +6,7 @@
       this.size = size1;
       terrainMaterial = new THREE.MeshLambertMaterial({
         color: 0x909090,
-        map: new THREE.TextureLoader().load("terrain.png")
+        map: new THREE.TextureLoader().load("terrain.jpg")
       });
       crustMaterial = new THREE.MeshLambertMaterial({
         color: 0x909090,

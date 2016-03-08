@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400)
 
 black(opacity=1)
   hsla(0, 0, 0, opacity)
@@ -14,7 +14,8 @@ off-white(opacity=1)
 
 body
   margin 0
-  font-family Montserrat
+  font-family Lato
+  font-weight 300
   color black
 
   > canvas
@@ -36,17 +37,24 @@ body
   overflow-y auto
 
   h1
-    font-size 20px
-    font-weight normal
+    font-size 24px
+    font-weight 400
 
-  p
-    font-size 10px
+  .description
+    font-size 15px
+
+  .hint
+    font-size 11px
+    opacity 0.8
+
+  a
+    color black
 
   .functions
     .function
       .name
         font-size 12px
-        font-weight normal
+        font-weight 400
         cursor default
 
       .graph-area

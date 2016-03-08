@@ -3,7 +3,7 @@
   window.DataGrid = (function() {
     function DataGrid(scene, terrain) {
       var column, geometry, height, i, j, origin, ref, ref1, root, scale, spacing, x, y;
-      this.size = 80;
+      this.size = 70;
       root = new THREE.Object3D();
       scene.add(root);
       scale = terrain.size / this.size;

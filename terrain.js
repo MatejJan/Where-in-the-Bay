@@ -6,7 +6,7 @@
       this.size = size1;
       terrainMaterial = new THREE.MeshLambertMaterial({
         color: 0x909090,
-        map: new THREE.TextureLoader().load("terrain.jpg")
+        map: new THREE.TextureLoader().load("terrain.png")
       });
       crustMaterial = new THREE.MeshLambertMaterial({
         color: 0x909090,
@@ -16,7 +16,7 @@
       material.materials = [terrainMaterial, crustMaterial];
       this.height = this.size * 0.03;
       this.depth = this.size * 0.1;
-      this.resolution = 800;
+      this.resolution = 600;
       texture = new THREE.TextureLoader().load("heightmap.png", (function(_this) {
         return function() {
           var bl, br, canvas, edgeIndicesOffset, geometry, height, heightFunction, i, image, imageData, j, k, l, m, n, o, p, q, r, ref, ref1, ref2, ref3, ref4, ref5, size, tl, tr, uvs, x, y;

@@ -1,6 +1,6 @@
 class window.DataGrid
   constructor: (scene, terrain) ->
-    @size = 80
+    @size = 70
 
     root = new THREE.Object3D()
     scene.add root

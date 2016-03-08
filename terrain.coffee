@@ -2,7 +2,7 @@ class window.Terrain
   constructor: (@size, onMeshCreated) ->
     terrainMaterial = new THREE.MeshLambertMaterial
       color: 0x909090
-      map: new THREE.TextureLoader().load "terrain.jpg"
+      map: new THREE.TextureLoader().load "terrain.png"
 
     crustMaterial = new THREE.MeshLambertMaterial
       color: 0x909090
@@ -17,7 +17,7 @@ class window.Terrain
 
     @height = @size * 0.03
     @depth = @size * 0.1
-    @resolution = 800
+    @resolution = 600
 
     texture = new THREE.TextureLoader().load "heightmap.png", =>
       image = texture.image
